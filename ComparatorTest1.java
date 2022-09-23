@@ -40,7 +40,7 @@ public class ComparatorTest1 {
     {
         List<Student> al=new ArrayList<>();
         al.add(new Student(20,"BHASKAR",86));
-        al.add(new Student(14,"deepu",90));
+        al.add(new Student(14,"Deepu",90));
         al.add(new Student(16,"mourya",94));
         Comparator<Student> cm=Comparator.comparing(Student::getAge);
         Collections.sort(al,cm);
@@ -59,3 +59,4 @@ public class ComparatorTest1 {
 
     }
 }
+
